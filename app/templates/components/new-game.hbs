@@ -1,0 +1,41 @@
+{{#if addNewGame}}
+
+<h1>New Game</h1>
+
+<div>
+  <form>
+    <div class="form-group">
+      <label for="title">Title</label>
+      {{input value=title id="title"}}
+    </div>
+
+    <div class="form-group">
+      <label for="writer">Writer</label>
+      {{input value=writer id="writer"}}
+    </div>
+
+    <div class="form-group">
+      <label for="type">Tyoe of game(Indoor/Outdoor)</label>
+      {{input value=type id="type"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image">Image</label>
+      {{input value=image id="image"}}
+    </div>
+
+    <div class="form-group">
+      <label for="title">Title</label>
+      {{input value=title id="title"}}
+    </div>
+
+    <div class="form-group">
+      <label for="title">Date published</label>
+      {{input value=date id="date"}}
+    </div>
+
+  </form>
+</div>
+{{else}}
+<button {{action 'gameFormShow'}}>New Game</button>
+{{/if}}

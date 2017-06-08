@@ -1,0 +1,21 @@
+{"games":[{
+
+"title": "FIFA",
+"writer": "Samuel Kinuthia",
+"type": "indoor",
+"image": "http://www.o-posts.com/wp-content/uploads/2016/03/FIFA-17-Cover-Jamie-Vardy.jpg",
+"date": "24th Dec"
+}, {
+"title": "Skyrim",
+"writer": "Paul Nderitu",
+"type": "indoor",
+"image": "http://blogs-images.forbes.com/erikkain/files/2016/12/Skyrim-SE.jpg",
+"date": "27th Dec"
+}, {
+"title": "Nova",
+"writer": "Oti",
+"type": "indoor",
+"image": "http://am.cdnmob.org/iphonegame_img/nova_2_near_orbit_vanguard_alliance/real/2_nova_2_near_orbit_vanguard_alliance.jpg",
+"date": "2nd June"
+}]
+}

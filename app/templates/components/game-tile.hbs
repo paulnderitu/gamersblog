@@ -1,0 +1,9 @@
+<li>{{game.title}} {{game.type}} by {{game.writer}} published on {{game.date}}
+
+  {{#if isImageShowing}}
+    <p><img src={{game.image}} alt={{game.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action "imageShow"}}>Show image</button>
+    {{/if}}
+<button {{action "delete" game}}>Delete Game</button>
+</li>
