@@ -15,7 +15,7 @@
     </div>
 
     <div class="form-group">
-      <label for="type">Tyoe of game(Indoor/Outdoor)</label>
+      <label for="type">Type of game(Indoor/Outdoor)</label>
       {{input value=type id="type"}}
     </div>
 
@@ -25,14 +25,11 @@
     </div>
 
     <div class="form-group">
-      <label for="title">Title</label>
-      {{input value=title id="title"}}
+      <label for="date">Date Published</label>
+      {{input value=title id="date"}}
     </div>
+    <button {{action 'saveGame1'}}>Save Game</button>
 
-    <div class="form-group">
-      <label for="title">Date published</label>
-      {{input value=date id="date"}}
-    </div>
 
   </form>
 </div>

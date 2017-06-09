@@ -4,9 +4,16 @@ export default Ember.Route.extend({
     return this.store.findAll('game');
   },
   actions: {
+    saveGame3(params) {
+      var newGame=
+      this.store.createRecord('game', params);
+      newGame.save();
+      this.transitionTo('index');
+    },
+    
     destroyGame(game) {
       game.destroyRecord();
       this.transitionTo('index');
-    }
+    },
   }
 });
